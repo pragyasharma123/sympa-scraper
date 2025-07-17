@@ -95,6 +95,22 @@ This script:
 
 ---
 
+## ⚠️ Important: Headless Mode Warning
+
+This script interacts with an anti-spam button on the archive site that says **"I'm not a spammer"**. This button **cannot be detected or clicked in headless mode**.
+
+To ensure proper functionality:
+
+- **Make sure `headless=False` is set** in both scripts (`collect_all_messages.py` and `hri_analyze_messages.py`).
+- Otherwise, message pages may fail to load, or the script may not proceed past the archive home page.
+
+Example (already in code):
+```python
+browser = await p.chromium.launch(headless=False)
+```
+
+---
+
 ## 🧪 Example Use Cases
 
 * Identify researchers and labs working on HRI topics
