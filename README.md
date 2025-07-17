@@ -127,12 +127,4 @@ browser = await p.chromium.launch(headless=False)
 
 ---
 
-## 🤝 Acknowledgments
-
-* Robotics-Worldwide mailing list ([KIT.edu](https://www.lists.kit.edu))
-* `spaCy` for NLP
-* `Playwright` for headless browser automation
-* `BeautifulSoup` for HTML parsing
-
----
 
