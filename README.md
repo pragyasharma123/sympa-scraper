@@ -1,5 +1,3 @@
-Here’s how I’d update your README so it matches your new code with the `--extra_seeds` CLI option and the merged HRI keyword handling.
-
 ---
 
 # 🤖 sympa-scraper
