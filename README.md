@@ -136,4 +136,3 @@ browser = await p.chromium.launch(headless=False)
 
 ---
 
-Do you want me to also add a **“Generalization for non-HRI scraping”** section to this README so that it’s ready when we make your script topic-agnostic? That way it’s already future-proofed.
